@@ -15,7 +15,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: kalilinux/kali-rolling:latest
+    runs-on: ubuntu:latest
 
     steps:
     - uses: actions/checkout@v4
